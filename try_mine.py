@@ -29,8 +29,8 @@ TEST_DIR   = ROOT_DIR / "test"
 RESULT_DIR = ROOT_DIR / "result"
 MODEL_PATH = ROOT_DIR / "weights" / "icon_detect" / "model.pt"
 
-IMG_SIZE   = 1088
-CONF_THRES = 0.09
+IMG_SIZE   = 1920
+CONF_THRES = 0.02
 IOU_THRES  = 0.10
 MAX_DET    = 3000
 AUGMENT    = True      # test-time augmentation
